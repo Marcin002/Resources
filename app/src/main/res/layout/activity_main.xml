@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/napis"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.825" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/zdjecie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,11 +49,11 @@
         android:id="@+id/przod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/zielony"
-        android:backgroundTint="@color/zielony"
+        android:background="@color/czerwony"
+        android:backgroundTint="@color/czerwony"
         android:text="@string/przod"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textColor="@color/szary"
+        android:textColorHint="@color/szary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.811"
