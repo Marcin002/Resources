@@ -24,15 +24,15 @@ class MainActivity : AppCompatActivity() {
         dalej.setOnClickListener {
             i++;
             if (i==1) {
-                zdj.setImageResource(R.drawable.zdj1)
+                zdj.setImageResource(R.drawable.jablko)
                 tekst.text = ob1
             }
             else if (i==2){
-                zdj.setImageResource(R.drawable.zdj2)
+                zdj.setImageResource(R.drawable.gruszka)
                 tekst.text = ob2
             }
             else if (i>=3){
-                zdj.setImageResource(R.drawable.zdj3)
+                zdj.setImageResource(R.drawable.wisnia)
                 tekst.text = ob3
                 i=3
             }
@@ -41,19 +41,18 @@ class MainActivity : AppCompatActivity() {
         wstecz.setOnClickListener {
             i--
             if (i<=1){
-                zdj.setImageResource(R.drawable.zdj1)
+                zdj.setImageResource(R.drawable.jablko)
                 tekst.text = ob1
                 i=1
             }
             else if (i==2){
-                zdj.setImageResource(R.drawable.zdj2)
+                zdj.setImageResource(R.drawable.gruszka)
                 tekst.text = ob2
             }
             else if (i==3){
-                zdj.setImageResource(R.drawable.zdj3)
+                zdj.setImageResource(R.drawable.wisnia)
                 tekst.text = ob3
             }
         }
     }
     }
-}
