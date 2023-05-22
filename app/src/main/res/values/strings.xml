@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Resources</string>
+    <string name="tyl">Poprzedni</string>
+    <string name="przod">Nastepny</string>
 </resources>
